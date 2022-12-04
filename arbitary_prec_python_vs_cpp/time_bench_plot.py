@@ -14,7 +14,7 @@ if (len(argv)>=2):
     num=argv[1]
 else:
     print("nincsenek fileok")
-num=500
+
 mat_size=np.array([])
 time1=np.array([])
 time2=np.array([])
