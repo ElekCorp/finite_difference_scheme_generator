@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 num=0
 if (len(argv)>=2):
-    num=argv[1]
+    num=int(argv[1])
 else:
     print("nincsenek fileok")
 
