@@ -1,0 +1,15 @@
+In file included from main.cpp:4:
+MATRIX.h:344: warning: ignoring ‘#pragma omp parallel’ [-Wunknown-pragmas]
+  344 | #pragma omp parallel for collapse(2)
+      | 
+In file included from main.cpp:4:
+MATRIX.h:344: warning: ignoring ‘#pragma omp parallel’ [-Wunknown-pragmas]
+  344 | #pragma omp parallel for collapse(2)
+      | 
+MATRIX.h: In member function ‘__ct_base ’:
+MATRIX.h:214:16: warning: argument 1 value ‘18446744073709551615’ exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  214 |     this->pt = new T[oszlop * sor];
+      |                ^
+/usr/include/c++/12.2.0/new:128:26: note: in a call to allocation function ‘operator new []’ declared here
+  128 | _GLIBCXX_NODISCARD void* operator new[](std::size_t) _GLIBCXX_THROW (std::bad_alloc)
+      |                          ^
